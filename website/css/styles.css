@@ -1124,7 +1124,6 @@ section {
 /* === Donation Page === */
 .hero-donate {
     min-height: auto;
-    padding-top: 120px;
     padding-bottom: var(--spacing-2xl);
 }
 
@@ -1533,7 +1532,6 @@ section {
 /* === Dev Log Page Styles === */
 .hero-devlog {
     min-height: auto;
-    padding-top: 120px;
     padding-bottom: var(--spacing-2xl);
 }
 
