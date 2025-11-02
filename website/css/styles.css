@@ -343,6 +343,7 @@ section {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
+    margin-top: 0;
     margin-bottom: var(--spacing-md);
     color: var(--color-primary);
 }
@@ -357,7 +358,7 @@ section {
 /* === Apps Section === */
 .apps-section {
     background: var(--color-bg);
-    padding-top: var(--spacing-md);
+    padding-top: 0;
     padding-bottom: var(--spacing-3xl);
 }
 
