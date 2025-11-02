@@ -230,28 +230,11 @@ appCards.forEach(card => {
     const planet = card.querySelector('.planet-icon');
 
     card.addEventListener('mouseenter', () => {
-        planet.style.animationPlayState = 'paused';
         planet.style.transform = 'scale(1.1)';
     });
 
     card.addEventListener('mouseleave', () => {
-        planet.style.animationPlayState = 'running';
         planet.style.transform = 'scale(1)';
-    });
-});
-
-// ===================================
-// Scroll-based Parallax for Hero Planets
-// ===================================
-const heroPlanets = document.querySelectorAll('.hero-planets .planet');
-
-window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-
-    heroPlanets.forEach((planet, index) => {
-        const speed = 0.5 + (index * 0.1);
-        const yPos = -(scrolled * speed);
-        planet.style.transform = `translateY(${yPos}px)`;
     });
 });
 
