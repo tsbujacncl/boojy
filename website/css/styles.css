@@ -1,14 +1,14 @@
 /* ===================================
-   BOOJY SUITE - LUNAR GREY THEME
-   Professional + Playful
+   BOOJY SUITE - SPACE THEME
+   Professional + Playful + Cosmic
    =================================== */
 
 /* === CSS Variables === */
 :root {
     /* Brand Colors */
-    --color-primary: #2A2A2A;        /* Charcoal */
-    --color-primary-light: #3D3D3D;
-    --color-primary-dark: #1A1A1A;
+    --color-primary: #F5F5F5;        /* Light text */
+    --color-primary-light: #FFFFFF;
+    --color-primary-dark: #E5E5E5;
     --color-accent: #00B3FF;         /* Uranus Blue accent */
 
     /* Planet Colors */
@@ -20,11 +20,11 @@
     --color-score: #3730A3;          /* Deep Blue */
 
     /* UI Colors */
-    --color-bg: #D8D9DD;             /* Lunar Grey (darker) */
-    --color-bg-alt: #C8C9CE;         /* Meteor Grey */
-    --color-text: #2A2A2A;           /* Charcoal */
-    --color-text-light: #5A5A5A;
-    --color-border: #B0B1B6;
+    --color-bg: #1A1B23;             /* Dark Space Grey */
+    --color-bg-alt: #2A2B35;         /* Lighter Space Grey */
+    --color-text: #F5F5F5;           /* Light text for dark background */
+    --color-text-light: #B0B1B6;
+    --color-border: #3A3B45;
 
     /* Spacing */
     --spacing-xs: 0.5rem;
@@ -87,7 +87,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(26, 27, 35, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--color-border);
     z-index: 100;
@@ -157,35 +157,30 @@ body {
 /* Navigation CTA Buttons */
 .btn-nav-primary,
 .btn-nav-secondary {
-    padding: var(--spacing-xs) var(--spacing-md);
-    border-radius: var(--border-radius);
+    padding: 0.25rem 0.625rem;
+    border-radius: 4px;
     transition: all 0.3s ease;
-    font-weight: 600;
-    font-size: 0.875rem;
+    font-weight: 500;
+    font-size: 0.9375rem;
 }
 
 .btn-nav-primary {
-    background: var(--color-primary);
-    color: white !important;
+    background: white;
+    color: #1A1B23 !important;
 }
 
 .btn-nav-primary:hover {
-    background: var(--color-primary-light);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+    background: #E5E5E5;
 }
 
 .btn-nav-secondary {
-    background: transparent;
-    color: var(--color-primary) !important;
-    border: 2px solid var(--color-primary);
+    background: #EC4899;
+    color: white !important;
+    border: none;
 }
 
 .btn-nav-secondary:hover {
-    background: var(--color-primary);
-    color: white !important;
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+    background: #DB2777;
 }
 
 /* Mobile Toggle */
@@ -208,14 +203,16 @@ body {
 
 /* === Hero Section === */
 .hero {
-    min-height: 100vh;
+    min-height: 60vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
     position: relative;
-    padding-top: 80px;
-    background: linear-gradient(to bottom, var(--color-bg-alt) 0%, var(--color-bg) 100%);
+    padding-top: 140px;
+    padding-bottom: var(--spacing-3xl);
+    background: var(--color-bg);
+    overflow: hidden;
 }
 
 .hero-content {
@@ -234,7 +231,7 @@ body {
 .hero-subtitle {
     font-size: 1.25rem;
     color: var(--color-text);
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: 0;
     font-weight: 400;
     max-width: 700px;
     margin-left: auto;
@@ -242,26 +239,50 @@ body {
     line-height: 1.6;
 }
 
-.hero-cta-links {
-    display: flex;
-    gap: var(--spacing-lg);
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: var(--spacing-xl);
+/* Starfield Background */
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
 }
 
-.hero-link {
-    color: var(--color-text);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-    position: relative;
+.stars::before,
+.stars::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    box-shadow:
+        100px 200px white, 200px 100px white, 300px 300px white,
+        400px 150px white, 500px 250px white, 150px 400px white,
+        250px 500px white, 350px 450px white, 450px 350px white,
+        550px 150px white, 150px 550px white, 650px 250px white,
+        750px 350px white, 850px 150px white, 950px 250px white,
+        50px 50px white, 650px 450px white, 750px 550px white,
+        850px 650px white, 950px 550px white, 1050px 350px white,
+        1150px 450px white, 1250px 250px white, 1350px 350px white,
+        75px 125px white, 175px 225px white, 275px 325px white,
+        375px 425px white, 475px 525px white, 575px 225px white,
+        675px 125px white, 775px 325px white, 875px 425px white,
+        975px 525px white, 1075px 225px white, 1175px 325px white;
 }
 
-.hero-link:hover {
-    color: var(--color-primary);
-    transform: translateX(2px);
+.stars::after {
+    width: 1px;
+    height: 1px;
+    animation: twinkle 3s ease-in-out infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
 }
 
 /* === Buttons === */
@@ -336,10 +357,10 @@ section {
 }
 
 .app-card {
-    background: white;
+    background: var(--color-bg-alt);
     border-radius: var(--border-radius-lg);
     padding: var(--spacing-xl);
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3);
     transition: all 0.3s ease;
     border: 2px solid transparent;
     position: relative;
@@ -493,10 +514,10 @@ section {
 }
 
 .value-card {
-    background: white;
+    background: var(--color-bg-alt);
     padding: var(--spacing-xl);
     border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.3);
     transition: all 0.3s ease;
 }
 
@@ -525,7 +546,7 @@ section {
 
 /* === Roadmap Section === */
 .roadmap-section {
-    background: white;
+    background: var(--color-bg-alt);
 }
 
 .roadmap-timeline {
@@ -557,19 +578,19 @@ section {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: white;
+    background: var(--color-bg);
     border: 3px solid var(--color-border);
     transition: all 0.3s ease;
 }
 
 .timeline-marker.active {
-    border-color: var(--color-primary);
-    background: var(--color-primary);
-    box-shadow: 0 0 0 4px rgba(91, 33, 182, 0.2);
+    border-color: var(--color-accent);
+    background: var(--color-accent);
+    box-shadow: 0 0 0 4px rgba(0, 179, 255, 0.2);
 }
 
 .timeline-content {
-    background: var(--color-bg-alt);
+    background: var(--color-bg);
     padding: var(--spacing-lg);
     border-radius: var(--border-radius);
 }
@@ -642,6 +663,7 @@ section {
     border-radius: var(--border-radius);
     font-size: 1rem;
     box-shadow: var(--shadow-md);
+    color: #1A1B23;
 }
 
 .notify-form .btn {
@@ -672,11 +694,11 @@ section {
     align-items: center;
     gap: var(--spacing-sm);
     padding: var(--spacing-md) var(--spacing-xl);
-    background: white;
+    background: var(--color-bg);
     color: var(--color-text);
     text-decoration: none;
     border-radius: var(--border-radius);
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3);
     transition: all 0.3s ease;
     font-weight: 600;
 }
@@ -728,7 +750,7 @@ section {
         left: -100%;
         width: 100%;
         height: calc(100vh - 72px);
-        background: rgba(255, 255, 255, 0.98);
+        background: rgba(26, 27, 35, 0.98);
         backdrop-filter: blur(10px);
         flex-direction: column;
         padding: var(--spacing-xl);
