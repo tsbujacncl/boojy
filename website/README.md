@@ -6,7 +6,7 @@ Official website for Boojy Suite - Creativity Without Limits
 
 This is the landing page and marketing website for the Boojy Suite creative tools ecosystem. Built with pure HTML, CSS, and JavaScript for simplicity and performance.
 
-**Theme:** Deep Space Purple cosmic design with playful planet animations
+**Theme:** Lunar Grey professional design with playful planet accents
 
 ## 🚀 Quick Start
 
@@ -29,7 +29,7 @@ This is the landing page and marketing website for the Boojy Suite creative tool
 website/
 ├── index.html          # Main landing page
 ├── css/
-│   └── styles.css      # All styles (cosmic theme)
+│   └── styles.css      # All styles (Lunar Grey theme)
 ├── js/
 │   └── main.js         # Interactivity & animations
 ├── images/             # Images and assets (add as needed)
@@ -41,27 +41,30 @@ website/
 
 ### Colors
 
-- **Primary Brand**: `#5B21B6` (Deep Space Purple)
-- **Accent**: `#F59E0B` (Cosmic Gold)
+- **Background**: `#D8D9DD` (Lunar Grey)
+- **Panels/Cards**: `#C8C9CE` (Meteor Grey)
+- **Text**: `#2A2A2A` (Charcoal)
+- **Primary**: `#2A2A2A` (Charcoal)
+- **Accent**: `#00B3FF` (Uranus Blue)
 
 **App Planet Colors:**
-- Audio: `#A855F7` (Purple Planet)
-- Draw: `#F97316` (Mars Orange)
-- Design: `#3B82F6` (Earth Blue)
+- Audio: `#A855F7` (Purple)
+- Draw: `#FF6B3D` (Mars Coral)
+- Design: `#00B3FF` (Uranus Blue)
 - Video: `#FACC15` (Sun Gold)
-- Animate: `#10B981` (Neptune Green)
+- Animate: `#C77DFF` (Venus Lilac)
 - Score: `#3730A3` (Deep Blue)
 
 ### Features
 
-- ✨ Animated starfield background
-- 🪐 Floating planet graphics
-- 🎨 Planet-themed app cards
+- 🎨 Static planet icons on app cards (vibrant accents)
 - 📱 Fully responsive (mobile-first)
 - ♿ Accessible navigation
 - 🚀 Smooth scrolling
-- 💫 Hover animations
+- 💫 Smooth hover animations and transitions
 - 📧 Email signup form (ready for API integration)
+- 🌫️ Clean, professional aesthetic
+- ✨ Playful personality through colors and interactions
 
 ## 🌐 Deployment
 
@@ -113,12 +116,12 @@ website/
 
 ## 🎯 Future Enhancements
 
-- Add color theme switcher (alternative palettes)
-- Implement more planet animations
-- Add constellation patterns between sections
-- Create interactive app demos
+- Add dark mode variant of Lunar Grey
+- Create individual app detail pages
+- Add interactive app demos or mockups
 - Add testimonials section
 - Build community showcase
+- Implement blog for devlogs
 
 ## 🛠 Tech Stack
 
@@ -143,9 +146,9 @@ Website improvements welcome! Feel free to:
 
 ## 📧 Contact
 
-- GitHub: https://github.com/boojyorg
+- GitHub: https://github.com/tsbujacncl/boojy
 - Twitter: https://twitter.com/boojyorg
-- Email: [your email]
+- YouTube: @Boojy (starting Month 4)
 
 ---
 
