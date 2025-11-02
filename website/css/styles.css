@@ -210,7 +210,7 @@ body {
     text-align: center;
     position: relative;
     padding-top: 140px;
-    padding-bottom: var(--spacing-3xl);
+    padding-bottom: var(--spacing-lg);
     background: var(--color-bg);
     overflow: hidden;
 }
