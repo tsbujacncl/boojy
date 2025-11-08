@@ -15,6 +15,7 @@
     --color-audio: #8C8C8C;          /* Mercury Gray */
     --color-draw: #E8D5A9;           /* Venus Cream */
     --color-design: #4A90E2;         /* Earth Blue */
+    --color-board: #FBBF24;          /* Jupiter Yellow */
     --color-video: #FACC15;          /* Sun Gold */
     --color-animate: #C77DFF;        /* Venus Lilac */
     --color-score: #3730A3;          /* Deep Blue */
@@ -181,6 +182,14 @@ body {
 
 .nav-menu a[href*="design"]:hover {
     color: #6BA8F0;
+}
+
+.nav-menu a[href*="board"] {
+    color: #FBBF24;
+}
+
+.nav-menu a[href*="board"]:hover {
+    color: #FCD34D;
 }
 
 .nav-menu a[href*="cloud"] {
@@ -559,6 +568,26 @@ section {
     justify-content: center;
     font-size: 140px;
     line-height: 1;
+}
+
+.planet-board {
+    background:
+        radial-gradient(ellipse 120% 30% at 50% 20%, rgba(251, 191, 36, 0.4), transparent 50%),
+        radial-gradient(ellipse 120% 30% at 50% 50%, rgba(245, 158, 11, 0.5), transparent 50%),
+        radial-gradient(ellipse 120% 30% at 50% 80%, rgba(251, 191, 36, 0.3), transparent 50%),
+        radial-gradient(circle at 30% 30%, #FDE047, #F59E0B);
+    box-shadow: 0 0 35px rgba(251, 191, 36, 0.5);
+    position: relative;
+}
+
+.planet-board::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at 35% 25%, rgba(254, 243, 199, 0.6) 5%, transparent 15%);
+    pointer-events: none;
 }
 
 .planet-video {

@@ -1,4 +1,4 @@
-# Boojy Suite
+# 🎨 Boojy Suite
 
 > **Creativity without limits.**  
 > Free, open-source creative tools for everyone.
@@ -10,15 +10,15 @@
 Boojy Suite is a complete ecosystem of creative applications designed to replace expensive subscription software like Adobe Creative Cloud. Built for hobbyists, students, and independent creators.
 
 **Core principles:**
-- **Free forever** - No subscriptions, no paywalls, no trials
-- **Open-source** - Code is public and auditable (after v1.0)
-- **Privacy-first** - Opt-out anonymous telemetry, zero-knowledge Cloud encryption, no ads
-- **Cross-platform** - Windows, Mac, Linux, iPad, Web
-- **Commercial use allowed** - Use for paid work without licensing fees
+- ✅ **Free forever** – No subscriptions, no paywalls, no trials
+- ✅ **Open-source** – Code is public and auditable (after v1.0)
+- ✅ **Privacy-first** – No telemetry, no ads, no data collection
+- ✅ **Cross-platform** – Windows, Mac, Linux, iPad, Web
+- ✅ **Commercial use allowed** – Use for paid work without licensing fees
 
 ---
 
-## Apps
+## 🎵 Apps
 
 | App | Description | Status | Repository |
 |-----|-------------|--------|------------|
@@ -32,21 +32,20 @@ Boojy Suite is a complete ecosystem of creative applications designed to replace
 
 ---
 
-## Get Started
+## 🚀 Get Started
 
-- **Website:** [boojy.org](https://boojy.org) *(live)*
-- **Downloads:** Coming in Preview phase (Month 2+)
-- **Documentation:** [docs/](./docs) folder contains vision, roadmap, and business plan
-- **Discussions:** [Join the conversation](https://github.com/tsbujacncl/boojy/discussions)
-- **Report Issues:** [Suite-wide issues](https://github.com/tsbujacncl/boojy/issues)
+- 🌐 **Website:** [boojy.org](https://boojy.org) *(launching Month 3)*
+- 📥 **Downloads:** [boojy.org/preview](https://boojy.org/preview) *(Preview phase)*
+- 📚 **Documentation:** Coming after Preview
+- 💬 **Discussions:** [Join the conversation](https://github.com/boojyorg/boojy/discussions)
+- 🐛 **Report Issues:** [Suite-wide issues](https://github.com/boojyorg/boojy/issues) | App-specific issues go to individual app repos
 
 ---
 
-## Roadmap
+## 🗓️ Roadmap
 
 ### **Phase 1: Preview & Foundation (Months 0-12)**
-- **Now:** Website ready for deployment + Preview phase planning
-- **Month 2:** Audio, Draw, Design, Cloud Preview (v0.1-0.4)
+- **Now:** Preview phase with Audio, Draw, Design, Cloud (closed testing)
 - **Month 5:** Boojy Audio v0.5 Beta
 - **Month 8:** Boojy Draw v0.5 Beta
 - **Month 10:** Boojy Cloud v0.5 Launch (paid tiers)
@@ -63,28 +62,11 @@ Boojy Suite is a complete ecosystem of creative applications designed to replace
 - Plugin marketplace
 - Real-time collaboration
 
-[View detailed roadmap](./docs/VISION.md#development-roadmap-30-months)
+[View detailed roadmap →](https://github.com/boojyorg/boojy/projects)
 
 ---
 
-## Website
-
-The Boojy Suite website is live at [boojy.org](https://boojy.org)!
-
-**Features:**
-- Professional space-themed design (dark mode)
-- Responsive mobile-first layout
-- Individual app pages (Audio, Draw, Design, Cloud)
-- Legal compliance (Privacy Policy, Terms of Service, About Us)
-- SEO optimization (sitemap.xml, robots.txt)
-- Custom 404 error page
-- Pure HTML/CSS/JS (no frameworks)
-
-**Source:** [`website/`](./website) folder
-
----
-
-## Boojy Cloud
+## ☁️ Boojy Cloud
 
 Creative-aware storage that syncs your projects across all devices.
 
@@ -98,20 +80,20 @@ Creative-aware storage that syncs your projects across all devices.
 **Features:**
 - Auto-versioning (restore any previous save)
 - Smart previews (see artwork, not generic icons)
-- Cross-app integration
+- Cross-app integration (Audio ↔ Draw ↔ Design)
 - Offline-first (work without internet, sync when connected)
 - Privacy-focused (encrypted, never scanned)
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 **Boojy Suite will be open-source after v1.0 releases.**
 
 For now (Preview phase):
-- [Report bugs](https://github.com/tsbujacncl/boojy/issues) for suite-wide issues
-- [Join discussions](https://github.com/tsbujacncl/boojy/discussions) to share feedback
-- Spread the word about Boojy
+- 🐛 [Report bugs](https://github.com/boojyorg/boojy/issues) for suite-wide issues
+- 💬 [Join discussions](https://github.com/boojyorg/boojy/discussions) to share feedback
+- 📢 Spread the word about Boojy
 
 **Open-source contributions accepted after:**
 - Boojy Audio v1.0 (Month 15+)
@@ -120,20 +102,20 @@ For now (Preview phase):
 
 ---
 
-## Support Development
+## 💰 Support Development
 
 Boojy Suite is free forever, funded through optional support:
 
-- Subscribe to Boojy Cloud (launches Month 10)
-- [Donate](https://buymeacoffee.com/boojy) (one-time support)
-- Merch (coming soon)
-- Subscribe on YouTube (monthly devlogs starting Month 4)
+- ☁️ [Subscribe to Boojy Cloud](https://boojy.org/cloud) (launches Month 10)
+- ☕ [Donate](https://buymeacoffee.com/boojy) (one-time support)
+- 🛍️ [Merch](https://boojy.org/merch) (coming soon)
+- 📺 [Subscribe on YouTube](https://youtube.com/@Boojy) (monthly devlogs)
 
 **Transparency:** Monthly donation updates published publicly.
 
 ---
 
-## What Boojy Replaces
+## 🎨 What Boojy Replaces
 
 | Adobe Product | Boojy Equivalent |
 |---------------|------------------|
@@ -150,16 +132,16 @@ Boojy Suite is free forever, funded through optional support:
 
 ---
 
-## Follow Boojy
+## 🌐 Follow Boojy
 
-- **GitHub:** [github.com/tsbujacncl/boojy](https://github.com/tsbujacncl/boojy)
-- **YouTube:** @Boojy (monthly devlogs starting Month 4)
-- **X/Twitter:** @boojyorg
-- **Website:** Coming soon (deploy from `website/` folder)
+- **Website:** [boojy.org](https://boojy.org)
+- **YouTube:** [@Boojy](https://youtube.com/@Boojy) (monthly devlogs starting Month 4)
+- **X/Twitter:** [@boojyorg](https://x.com/boojyorg)
+- **GitHub:** [github.com/boojyorg](https://github.com/boojyorg)
 
 ---
 
-## License
+## 📜 License
 
 Apps will be released under **MIT License** (after v1.0 per app).
 
@@ -167,10 +149,10 @@ Apps will be released under **MIT License** (after v1.0 per app).
 
 ---
 
-## FAQ
+## ❓ FAQ
 
 **Q: When can I download the apps?**  
-A: Preview testing starts Month 2 (closed, 10-20 testers). Public beta launches Month 5+ (starting with Audio).
+A: Preview testing is happening now (closed, 10-20 testers). Public beta launches Month 5+ (starting with Audio).
 
 **Q: Will Boojy always be free?**  
 A: Yes. Every app is free forever. Optional Boojy Cloud subscriptions support development.
@@ -181,38 +163,15 @@ A: Absolutely! No licensing fees, no restrictions. Use for client work, freelanc
 **Q: When will apps be open-source?**  
 A: After each app reaches v1.0 stability (feature-complete + stable). Audio v1.0 expected Month 15+.
 
-**Q: How is Boojy different from Adobe?**
-A: Free (no £798/year subscription), privacy-first (opt-out telemetry), open-source (after v1.0), no generative AI (respects human creativity).
+**Q: How is Boojy different from Adobe?**  
+A: Free (no £798/year subscription), privacy-first (no tracking), open-source (after v1.0), no generative AI (respects human creativity).
 
-**Q: Does Boojy collect any data?**
-A: Apps collect anonymous usage data (crash reports, feature usage, performance metrics) to improve quality. This is opt-out - disable anytime in Settings → Privacy. We can't identify individual users. See [Privacy Policy](https://boojy.org/privacy.html) for details.
-
-**Q: Does Boojy have generative AI?**
+**Q: Does Boojy have generative AI?**  
 A: No. Boojy apps do not include AI image generation or AI fill tools. AI helps *build* the software (coding assistance), but doesn't touch *your* creative work.
-
----
-
-## Repository Structure
-
-```
-boojy/
-├── docs/              # Vision, roadmap, business plan
-├── website/           # Live website (boojy.org)
-│   ├── index.html, audio.html, draw.html, design.html, cloud.html
-│   ├── about.html, privacy.html, terms.html, 404.html
-│   ├── roadmap.html, devlog.html, downloads.html
-│   ├── donate.html, feature-request.html
-│   ├── sitemap.xml, robots.txt
-│   ├── css/, js/
-├── .github/           # GitHub workflows and templates
-└── README.md          # This file
-```
-
-Individual app repositories will be created as development progresses.
 
 ---
 
 **Built by creators, for creators.**
 
-[Tyr Bujac](https://github.com/tsbujacncl), Founder  
-Boojy Development
+– [Tyr Bujac](https://github.com/tsbujacncl), Founder  
+– Boojy Development
