@@ -168,10 +168,12 @@
             <div class="signup-box">
                 <h2 class="signup-title">Stay Updated</h2>
                 <p class="signup-description">Get notified about new releases and features. No spam. Unsubscribe anytime.</p>
-                <form name="email-signup" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="signup-form-inline">
-                    <input type="hidden" name="form-name" value="email-signup">
-                    <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
-                    <input type="email" name="email" placeholder="Your email" required class="signup-input">
+                <form action="https://boojy.us7.list-manage.com/subscribe/post?u=2cebb535b536483a415022089&amp;id=e7ebb28e0a&amp;f_id=00bbafe0f0" method="post" target="_blank" class="signup-form-inline">
+                    <input type="email" name="EMAIL" placeholder="Your email" required class="signup-input">
+                    <!-- Honeypot field for bot protection -->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_2cebb535b536483a415022089_e7ebb28e0a" tabindex="-1" value="">
+                    </div>
                     <button type="submit" class="btn-signup">Subscribe</button>
                 </form>
             </div>
