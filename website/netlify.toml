@@ -38,7 +38,7 @@
 # Redirect rules
 [[redirects]]
   from = "/github"
-  to = "https://github.com/tsbujacncl/boojy"
+  to = "https://github.com/tyrbujac/boojy"
   status = 301
   force = true
 

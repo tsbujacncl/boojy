@@ -305,7 +305,7 @@ if (heroSection) {
 // ===================================
 console.log('%c🎵 Boojy Audio 🎵', 'color: #5B21B6; font-size: 24px; font-weight: bold;');
 console.log('%cCreativity Without Limits', 'color: #7C3AED; font-size: 16px;');
-console.log('%cInterested in contributing? Check out our GitHub: https://github.com/tsbujacncl/boojy', 'color: #6B7280; font-size: 12px;');
+console.log('%cInterested in contributing? Check out our GitHub: https://github.com/tyrbujac/boojy', 'color: #6B7280; font-size: 12px;');
 
 // ===================================
 // Performance: Debounce Scroll Events
